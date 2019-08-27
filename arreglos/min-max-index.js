@@ -17,7 +17,7 @@ function getMinIndex(a) {
             minIndex = i
         }
     }
-    return min
+    return minIndex
 }
 
 function getMaxIndex(a) {
@@ -33,5 +33,5 @@ function getMaxIndex(a) {
             maxIndex = i
         }
     }
-    return max
+    return maxIndex
 }

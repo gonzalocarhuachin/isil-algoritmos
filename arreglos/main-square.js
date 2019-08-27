@@ -8,7 +8,6 @@ function getMin(a) {
     if (a.length == 0) return -1
 
     let min = a[0]
-
     for (let i = 0; i < a.length; i++) {
         if (square(a[i]) < min) min = square(a[i])
     }
